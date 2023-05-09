@@ -58,6 +58,31 @@ h2{
     font-size: 125%;
 }
 
+.socialsection{
+    text-align: center;
+}
+
+.socialsection ul{
+    align-content: center;
+}
+
+.socialsection li{
+    display: inline-block;
+    align-items: center;
+    width: 33%;
+    font-size: 125%;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: darkblue;
+
+
+}
+
+.socialsection li a{
+    text-align: center;
+    color: gainsboro;
+}
 
 @media screen and (max-width: 768px) {
     header{
@@ -87,6 +112,22 @@ h2{
     p{
         text-align: center;
         font-size: 80%;
+    }
+
+    .socialsection li{
+        flex-direction: column;
+        width: 100%;
+        border: 5px;
+        border-style: solid;
+        border-color: black;
+        margin: 3px;
+        background-color: darkblue;
+    
+    
+    }
+    .socialsection li a{
+        text-align: center;
+        color: gainsboro;
     }
     
 }
