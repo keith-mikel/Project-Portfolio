@@ -79,6 +79,11 @@ h2{
 
 }
 
+.socialsection li a::before ,
+.socialsection li a::after{
+    content:"📋";
+}
+
 .socialsection li a{
     text-align: center;
     color: gainsboro;
