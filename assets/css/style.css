@@ -40,22 +40,54 @@ ul{
 section{
     display: inline-block;
     width: 100%;
+    background-color: gainsboro;
+    border-bottom: 5px;
+    border-color: black;
+    border-style: solid;
 }
 
 img{
     display: block;
-    height: 200px;
-    width: 200px;
+    height: fit-content;
+    width: 20%;
     float: left;
-    margin: 5px;
-}
-p{
-    
-}
+} 
+
 h2{
     margin: 5px;
     font-size: 125%;
 }
-span{
-    font-size: 75%;
+
+
+@media screen and (max-width: 768px) {
+    header{
+        text-align: center;
+    }
+
+    ul{
+        background-color: gray;
+        height: 300px;
+    }
+
+    .headerli{
+        width: 100%;
+        flex-direction: column;
+        border: 5px;
+        border-style: solid;
+        border-color: black;
+        margin: 3px;
+    }
+
+    img{
+        width: 100%;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 80%;
+    }
+    
 }
+
